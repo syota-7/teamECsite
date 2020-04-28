@@ -1,0 +1,100 @@
+
+@charset "UTF-8";
+hidden {
+    display: none;
+}
+
+
+body{
+	background-color: whitesmoke;
+}
+
+main{
+	padding-top: 0.5%;
+	padding-bottom: 5%;
+	
+}
+
+
+main h2{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-size:20px;
+}
+
+.wrapper{
+	background-color: white;
+	width: 70%;
+	margin: 2% auto ;
+	border-radius: 15px;
+	padding-bottom:30px;
+	border:inset;
+	
+	
+}
+.content{
+	width: 70%;
+	margin: auto;
+	
+}
+
+table{
+	width:100%;
+	border:outset;
+	border-collapse:collapse;
+}
+table tbody td,table th{
+	border:1px solid gray;
+}
+th{
+	background:gainsboro;
+	color:black;
+	height:30px;
+	line-height: 30px;
+}
+th:nth-child(1){
+	width: 7%;
+}
+th:nth-child(2){
+	width: 15%;
+}
+
+th:nth-child(3){
+	width: 39%;
+}
+th:nth-child(4){
+	width: 18%;
+}
+
+
+tbody td{
+	background-color:whitesmoke;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;	
+}
+
+.buttonArea{
+	text-align: right;
+	margin-top: 4%;
+	padding-bottom: 4%;
+}
+
+main button,main form{
+	width:17%;
+	display:inline-block;
+}
+main form button{
+	width:100%;
+}
+
+main form,#deleteButton{
+	margin-right: 5%;
+}
+.wrapper p{
+	text-align: center;
+	padding-top:5%;
+	padding-bottom: 1%;
+	color: green;
+}

@@ -1,0 +1,146 @@
+
+
+@charset "UTF-8";
+hidden {
+    display: none;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+main{
+	
+	padding-top: 0.5%;
+	padding-bottom: 5%;
+	
+	
+}
+
+
+main h2{
+	text-align: center;
+	padding: 2% 0;
+	font-size:20px;
+	color:black;
+}
+
+.wrapper{
+	background-color: white;
+	width: 70%;
+	margin: 2% auto ;
+	border-radius: 15px;
+	padding-bottom:30px;
+	border:inset;
+	
+}
+.content{
+	width: 70%;
+	margin: auto;
+	
+}
+
+table{
+	width:100%;
+	border:outset;
+	border-collapse:collapse;
+	
+}
+table tbody td,table th{
+	border:1px solid gray;
+}
+th{
+	background:gainsboro;
+	color:black;
+	height:30px;
+	line-height: 30px;
+}
+th:nth-child(1){
+	width: 10%;
+}
+th:nth-child(2){
+	width: 20%;
+}
+
+th:nth-child(3){
+	width: 25%;
+}
+th:nth-child(4){
+	width: 20%;
+}
+th:nth-child(5){
+	width: 10%;
+}
+th:nth-child(6){
+	width: 20%;
+}
+
+tbody td{
+	height: 75px;
+	line-height: 75px;
+	
+}
+
+tbody td:nth-child(1){
+	text-align: center;
+}
+tbody td:nth-child(2){
+	text-align: center;
+}
+img{
+	vertical-align: middle;
+	height: 75px;
+}
+tbody td:nth-child(3){
+	text-align: center;
+	font-size:18px;
+}
+tbody td:nth-child(4){
+	text-align:right;
+}
+tbody td:nth-child(5){
+	text-align:right;
+}
+tbody td:nth-child(6){
+	text-align:right;
+}
+
+tfoot td{
+	border-top:6px solid #4D4D4D;
+	border-bottom:1px solid gray;
+	font-weight: bold;
+	height:40px;
+	line-height:40px;
+}
+tfoot td:nth-child(2){
+	text-align: center;
+}
+tfoot td:nth-child(3){
+	text-align:right;
+}
+tfoot td:nth-child(4){
+	text-align:right;
+}
+
+.purchaseBtn{
+	text-align: right;
+	margin-top: 4%;
+	width:100%;
+}
+
+main button,main form{
+	width:17%;
+	display: inline-block;
+}
+main form button{
+	width:100%;
+}
+
+main button{
+	margin-right: 5%;
+}
+p{
+	text-align: center;
+	padding-bottom: 20%;
+	color: green;
+}
